@@ -17,7 +17,7 @@ body {
     width: 60%;
     letter-spacing: 2px;
     line-height: 30px;
-    position: fixed;
+    position: absolute;
     top: 20%; 
 }
 
@@ -29,6 +29,26 @@ body {
 .flag {
     width: 25px;
     height: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.flag:hover {
+    transform: scale(1.4);
+}
+
+#russia {
+    width: 35px;
+    height: 35px;
+}
+
+#hungary {
+    width: 35px;
+    height: 35px;
+}
+
+#england {
+    width: 35px;
+    height: 35px;
 }
 
 ul {
